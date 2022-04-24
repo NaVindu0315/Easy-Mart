@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCBF6DC1-C2BF-493C-85D8-3EFB7CA54E28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Easy_Mart</RootNamespace>
+    <AssemblyName>Easy Mart</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\soft\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="developers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="developers.Designer.cs">
+      <DependentUpon>developers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devloading.Designer.cs">
+      <DependentUpon>devloading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee detail page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee detail page.Designer.cs">
+      <DependentUpon>Employee detail page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee Enroll Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Enroll Page.Designer.cs">
+      <DependentUpon>Employee Enroll Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory update.Designer.cs">
+      <DependentUpon>Inventory update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loding.Designer.cs">
+      <DependentUpon>loding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales report.Designer.cs">
+      <DependentUpon>sales report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.cs">
+      <DependentUpon>sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opening page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opening page.Designer.cs">
+      <DependentUpon>Opening page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Page.Designer.cs">
+      <DependentUpon>Login Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome page.Designer.cs">
+      <DependentUpon>Welcome page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food Inventory.Designer.cs">
+      <DependentUpon>Food Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vegetable Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vegetable Inventory.Designer.cs">
+      <DependentUpon>Vegetable Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beverage Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beverage Inventory.Designer.cs">
+      <DependentUpon>Beverage Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="developers.resx">
+      <DependentUpon>developers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devloading.resx">
+      <DependentUpon>devloading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee detail page.resx">
+      <DependentUpon>Employee detail page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Enroll Page.resx">
+      <DependentUpon>Employee Enroll Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory update.resx">
+      <DependentUpon>Inventory update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loding.resx">
+      <DependentUpon>loding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opening page.resx">
+      <DependentUpon>Opening page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Page.resx">
+      <DependentUpon>Login Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales report.resx">
+      <DependentUpon>sales report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome page.resx">
+      <DependentUpon>Welcome page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food Inventory.resx">
+      <DependentUpon>Food Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vegetable Inventory.resx">
+      <DependentUpon>Vegetable Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beverage Inventory.resx">
+      <DependentUpon>Beverage Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ab_inner_img-1200x469.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-user-icon-symbol-website-admin-social-login-element-concept-white-background-3d-rendering.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\packet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beverages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archeology.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sigma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balance-sheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2108.w023.n001.879B.p1.879.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5172658.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navindu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasindu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumindu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aruni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="R.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software-developer-gbd1ba00bb_1920.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

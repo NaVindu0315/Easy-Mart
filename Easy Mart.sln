@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy Mart", "Easy Mart\Easy Mart.csproj", "{FCBF6DC1-C2BF-493C-85D8-3EFB7CA54E28}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EasyMart Setup", "EasyMart Setup\EasyMart Setup.vdproj", "{22D417EE-C84E-4BDE-BEB7-A79975295C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBF6DC1-C2BF-493C-85D8-3EFB7CA54E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBF6DC1-C2BF-493C-85D8-3EFB7CA54E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBF6DC1-C2BF-493C-85D8-3EFB7CA54E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBF6DC1-C2BF-493C-85D8-3EFB7CA54E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D417EE-C84E-4BDE-BEB7-A79975295C89}.Debug|Any CPU.ActiveCfg = Debug
+		{22D417EE-C84E-4BDE-BEB7-A79975295C89}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50805E8A-F01E-4F79-86B9-C50518E20008}
+	EndGlobalSection
+EndGlobal
